@@ -1,0 +1,6 @@
+valor = input('digite algo: ')
+numerico = valor.isnumeric()
+alpha = valor.isalpha()
+maiusculo = valor.isupper()
+minusculo = valor.islower()
+print('É numerico:{0}\nÉ string: {1} \nÉ maiusculo: {2} \nÉ minusculo: {3}'.format(numerico, alpha, maiusculo, minusculo))
